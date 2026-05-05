@@ -10,23 +10,25 @@ Chinese-Think 是一个AI对话优化skill，通过引导AI使用中文进行思
 
 ### 安装
 
-`ash
-# 克隆仓库
-git clone https://github.com/YarXVI/chinese-think-skills.git
+在命令行执行：
 
-# 复制skill到你的项目
+`
+git clone https://github.com/YarXVI/chinese-think-skills.git
+`
+
+复制skill到你的项目：
+
+`
 cp -r chinese-think-skills/skills/your_project/.trae/skills/
 `
 
 ### 使用
 
-`
 用户: 用中文思考，精简回复
 AI:   [CHINESE-THINK 模式] 中文思考已激活。精简表达，核心保留。
 
 用户: 帮我看看这个函数为什么报错
 AI:   查此函数。报错因：参数类型错、数据为空、权限问题。逐一排查：
-`
 
 ## 核心规则
 
